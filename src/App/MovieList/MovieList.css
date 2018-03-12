@@ -1,0 +1,7 @@
+.MovieList {
+  display: flex;
+}
+
+.MovieList:hover .MovieCard:not(:hover) {
+  opacity: 0.3;
+}

@@ -1,0 +1,44 @@
+.MovieCard {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+  margin: 3px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  width: 25%;
+  transition: all 400ms;
+}
+
+.MovieCard::after {
+  content: '';
+  background: linear-gradient(rgba(169, 127, 216, 0.7), rgba(32, 37, 41, 1));
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: background 400ms;
+}
+
+
+.MovieCard-description {
+  position: relative;
+  z-index: 10;
+  text-align: right;
+}
+
+.MovieCard-description .title {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.MovieCard-description .year {
+  display: block;
+  font-size: 14px;
+}
