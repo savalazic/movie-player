@@ -1,5 +1,6 @@
 {
   "name": "movie-player",
+  "homepage" : "http://savalazic.github.io/movie-player",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
